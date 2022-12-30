@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import './Navbar.css'
 const Navbar = () => {
 
     return (
-        <div>
-            <div className="navbar bg-base-100">
+        <div className='static'>
+            <div  className=" navbar bg-base-100  bg-zinc-300  mt-3 ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -12,6 +13,7 @@ const Navbar = () => {
                         </label>
                         <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                             <li> <Link to='/'>Home</Link></li>
+                            <li> <Link to ='/services'>Services</Link></li>
                             <li tabIndex="0">
                                 <Link to="/about" className="justify-between"> About</Link >
                             </li>
@@ -23,6 +25,7 @@ const Navbar = () => {
                 <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
                         <li><Link to='/'>Home</Link></li>
+                        <li> <Link to ='/services'>Services</Link></li>
                         <li tabIndex="0">
                             <Link to='about'>About </Link>
                         </li>
