@@ -9,7 +9,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import Login from './Pages/Shared/Login/Login';
 function App() {
   return (
-    <div className='App'>
+    <div className='App '>
       <Navbar></Navbar>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
