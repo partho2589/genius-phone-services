@@ -1,4 +1,8 @@
-#product-img:hover{
+/* #product-img:hover{
     width: 370px;
     height: 270px;
+} */
+#product-img:hover{
+    box-shadow: 0 0 11px rgba(189, 4, 4, 0.2);
+    
 }
