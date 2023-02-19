@@ -1,7 +1,6 @@
 import React from 'react';
-import { Button, Container, InputGroup } from 'reactstrap';
+import { Button, InputGroup } from 'reactstrap';
 import { ThemeContext, themes } from './contexts/ThemeContext';
-import ToggleDark from './components/toggleDark';
 function Dark() {
     const [darkMode, setDarkMode] = React.useState(true);
   
