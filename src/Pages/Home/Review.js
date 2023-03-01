@@ -1,14 +1,8 @@
 import React from 'react';
 
 const Review = ({ review }) => {
-    const {img, name } = review;
-    const len = name.length;
-    let name2;
-    if(len >= 20 ){
-    const  name2 = len;
-    return name2
-    }
-    console.log(len)
+    const {img} = review;
+  
     return (
         <div>
             <div className="card card-side bg-base-100 shadow-xl ">
