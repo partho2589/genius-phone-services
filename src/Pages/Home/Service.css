@@ -2,7 +2,11 @@
     width: 370px;
     height: 270px;
 } */
-#product-img:hover{
-    box-shadow: 0 0 11px rgba(189, 4, 4, 0.2);
+#product-img{
+    transform-origin: 0 0;
+  transition: transform .25s, visibility .25s ease-in;
     
+}
+#product-img:hover{
+    transform: scale(2);
 }
